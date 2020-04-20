@@ -165,5 +165,9 @@ int (^yourBlock)(int ,int );
     NSLog(@"传给代理的参数为 title == %@",title);
 }
 
+#pragma mark - test
+- (void)addGitInfo:(NSString *)info{
+    NSLog(@"%s",__func__);
+}
 
 @end
