@@ -165,7 +165,7 @@ int (^yourBlock)(int ,int );
     NSLog(@"传给代理的参数为 title == %@",color);
     NSLog(@"传给代理的参数为 title == %@",title);
     NSLog(@"传给代理的参数为 title == %@",title);
-    NSLog(@"传给代理的参数为 title");
+    NSLog(@"title");
 
 }
 
