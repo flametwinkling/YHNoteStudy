@@ -163,6 +163,10 @@ int (^yourBlock)(int ,int );
 
 -(void)setTitle:(NSString *)title setColor:(UIColor *)color{
     NSLog(@"传给代理的参数为 title == %@",title);
+    NSLog(@"传给代理的参数为 title == %@",title);
+    NSLog(@"传给代理的参数为 title == %@",title);
+    NSLog(@"传给代理的参数为 title == %@",title);
+
 }
 
 #pragma mark - test
